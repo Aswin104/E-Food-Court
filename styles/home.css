@@ -1,0 +1,80 @@
+#main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 100px;
+  }
+  
+  #main div {
+    width: 400px;
+    height: 400px;
+    margin : 20px 60px 30px 50px;
+  }
+
+  #main img{
+    margin: 2rem 2rem 2rem 4rem;
+  }
+
+  #main h5{
+    margin: -1rem 1rem 0rem 4.5rem;
+  }
+
+  #main p{
+    margin: 0rem 1rem 2rem 4.5rem;
+  }
+
+  #main span{
+    margin-left: 72px;
+    margin-top: 10px;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+  .menuBtn{
+    border-radius: 12px;
+    font-size: 13px;
+    margin-left: 90px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button {
+    background-color: rgb(241, 184, 77); /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .menuBtn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(241, 184, 77);
+  }
+  
+  .menuBtn:hover {
+    background-color: rgb(241, 184, 77);
+    color: white;
+  }
+
+  #cartBtn{
+    border-radius: 12px;
+  }
+/* 
+  button{
+    border-radius: 50%;
+  } */

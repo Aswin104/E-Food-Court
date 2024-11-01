@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dawat</title>
+    <link rel="stylesheet" href="../../styles/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Foody</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dawatReview.html">Review</a>
+            </li>
+          </ul>
+        </div>
+        <button> <a href="../checkout.html" style="all:unset">Cart</a> </button>
+      </nav>
+      
+      <div id="main">
+        <ul style="list-style-type:none;">
+            <li>
+                <img src="../../images/bir.jpg" alt="img" style="border-radius: 50%;" width="100px" height="90px">
+                Biryani and Rice
+                <ul>
+                    <li>Plain rice 90 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                    <li>Zeera rice 110 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                    <li>Chicken biryani 130 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                    <li>Veg biryani 110 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                    <li>Mutton biryani 150 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                </ul>
+            </li>
+            <li>
+                <img src="../../images/fried.jpg" alt="img" style="border-radius: 50%;" width="100px" height="90px">
+                Chinese fried rice
+                <ul>
+                    <li>Egg fried rice 130 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                    <li>Chicken fried rice 150 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                    <li>veg fried rice 120 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                </ul>
+            </li>
+            <li>
+                <img src="../../images/starter.jpg" alt="img" style="border-radius: 50%;" width="100px" height="90px">
+                Starter
+                <ul>
+                    <li>Veg manchurian 80 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                    <li>Paneer 65 110 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                    <li>Paneer pakoda 80 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                    <li>Chicken pakoda 100 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                    <li>Chicken lollipop 110 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                </ul>
+            </li>
+            <li>
+                <img src="../../images/naan.jpg" alt="img" style="border-radius: 50%;" width="100px" height="90px">
+                Roti
+                <ul>
+                    <li>Plain Naan 40 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                    <li>Butter Naan 50 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                    <li>Rumali roti 45 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                    <li>Pulka roti 10 <button onclick="additem(this)" style="border-radius: 12px;">add</button></li><br>
+                </ul>
+            </li>
+        </ul>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      <script src="../cart.js"></script>
+</body>
+</html>

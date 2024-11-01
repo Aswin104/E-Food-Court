@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The EBD</title>
+    <link rel="stylesheet" href="../../styles/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+      button{
+        border-radius: 12px;
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Foody</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ebdrev.html">Review</a>
+            </li>
+          </ul>
+        </div>
+        <button> <a href="../checkout.html" style="all:unset">Cart</a> </button>
+      </nav>
+      
+      <div id="main">
+        <ul style="list-style-type:none;">
+            <li>
+                <img src="../../images/naan.jpg" alt="img" style="border-radius: 50%;" width="100px" height="90px">
+                Bread and Roti
+                <ul>
+                    <li>Plain Naan 30 <button onclick="additem(this)">add</button></li><br>
+                    <li>Butter Naan 50 <button onclick="additem(this)">add</button></li><br>
+                    <li>Garlic Naan 70 <button onclick="additem(this)">add</button></li><br>
+                    <li>Rumali Roti 30 <button onclick="additem(this)">add</button></li><br>
+                    <li>Tandoori Roti 20 <button onclick="additem(this)">add</button></li><br>
+                    <li>Kulcha Naan 40 <button onclick="additem(this)">add</button></li><br>
+                    <li>Tawa Roti 10 <button onclick="additem(this)">add</button></li><br>
+                </ul>
+            </li>
+            <li>
+                <img src="../../images/starter.jpg" alt="img" style="border-radius: 50%;" width="100px" height="90px">
+                Starters
+                <ul>
+                    <li>Chicken Kebab 110 <button onclick="additem(this)">add</button></li><br>
+                    <li>Chicken lollipop 120 <button onclick="additem(this)">add</button></li><br>
+                    <li>Chilly Chicken 100 <button onclick="additem(this)">add</button></li><br>
+                    <li>Chicken Pakoda 80 <button onclick="additem(this)">add</button></li><br>
+                    <li>Prawn Pakoda 90 <button onclick="additem(this)">add</button></li><br>
+                    <li>Veg munchurian 60 <button onclick="additem(this)">add</button></li><br>
+                    <li>Paneer 65 80 <button onclick="additem(this)">add</button></li><br>
+                    <li>Paneer Pakoda 70 <button onclick="additem(this)">add</button></li><br>
+                    <li>Mushroom Pakoda 70 <button onclick="additem(this)">add</button></li><br>
+                </ul>
+            </li>
+            <li>
+                <img src="../../images/bir.jpg" alt="img" style="border-radius: 50%;" width="100px" height="90px">
+                Biryani and Rice
+                <ul>
+                    <li>Chicken dum Biryani 150 <button onclick="additem(this)">add</button></li><br>
+                    <li>Chicken muglai Biryani 160 <button onclick="additem(this)">add</button></li><br>
+                    <li>Chicken kebab Biryani 160 <button onclick="additem(this)">add</button></li><br>
+                    <li>Mutton Biryani 180 <button onclick="additem(this)">add</button></li><br>
+                    <li>Mix Nonveg Biryani 200 <button onclick="additem(this)">add</button></li><br>
+                    <li>Prawn Biryani 170 <button onclick="additem(this)">add</button></li><br>
+                    <li>Egg Biryani 130 <button onclick="additem(this)">add</button></li><br>
+                    <li>Veg mix Biryani 120 <button onclick="additem(this)">add</button></li><br>
+                    <li>Steam Rice 80 <button onclick="additem(this)">add</button></li><br>
+                    <li>Plain Rice 60 <button onclick="additem(this)">add</button></li><br>
+                </ul>
+            </li>
+            <li>
+                <img src="../../images/chicken.jpg" alt="img" style="border-radius: 50%;" width="100px" height="90px">
+                Curry Items
+                <ul>
+                    <li>Chicken Punjabi 140 <button onclick="additem(this)">add</button></li><br>
+                    <li>Chicken kadai masala 140 <button onclick="additem(this)">add</button></li><br>
+                    <li>Chicken Hyderabadi 140 <button onclick="additem(this)">add</button></li><br>
+                    <li>Chicken Butter masala 110 <button onclick="additem(this)">add</button></li><br>
+                    <li>Chicken Muglai 160 <button onclick="additem(this)">add</button></li><br>
+                    <li>Mutton kasa 160 <button onclick="additem(this)">add</button></li><br>
+                    <li>Egg masala 90 <button onclick="additem(this)">add</button></li><br>
+                    <li>Kadai Panner 110 <button onclick="additem(this)">add</button></li><br>
+                    <li>Palak Paneer 130 <button onclick="additem(this)">add</button></li><br>
+                    <li>Paneer Butter masala 120 <button onclick="additem(this)">add</button></li><br>
+                    <li>Mushroom masala 120 <button onclick="additem(this)">add</button></li><br>
+                    <li>Mix veg 70 <button onclick="additem(this)">add</button></li><br>
+                </ul>
+            </li>
+            <li>
+                <img src="../../images/dessert.jpg" alt="img" style="border-radius: 50%;" width="100px" height="90px">
+                Dessert and Drinks
+                <ul>
+                    <li>Ice cream 60 <button onclick="additem(this)">add</button></li><br>
+                    <li>Pudding 40 <button onclick="additem(this)">add</button></li><br>
+                    <li>Fruit salad 60 <button onclick="additem(this)">add</button></li><br>
+                    <li>Brownie 70 <button onclick="additem(this)">add</button></li><br>
+                    <li>Masala Soda 30 <button onclick="additem(this)">add</button></li><br>
+                    <li>Soft drinks 20 <button onclick="additem(this)">add</button></li><br>
+                </ul>
+            </li>
+        </ul>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      <script src="../cart.js"></script>
+</body>
+</html>
